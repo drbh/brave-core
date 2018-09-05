@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/BUILD.gn b/chrome/browser/BUILD.gn
-index 52ab34ca40a7a22332d66e1650c2ec8954c98a4a..216f51411638f6c01aa82cf2c3af6a8bd109be11 100644
+index f7a1bcb1a5853652d63bd151892889867449b3da..c821cf9c597cf4eff1fde1aad8584390691418f9 100644
 --- a/chrome/browser/BUILD.gn
 +++ b/chrome/browser/BUILD.gn
-@@ -1955,6 +1955,7 @@ jumbo_split_static_library("browser") {
+@@ -1953,6 +1953,7 @@ jumbo_split_static_library("browser") {
      "//ui/strings",
      "//ui/surface",
      "//ui/web_dialogs",

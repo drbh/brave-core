@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/ui/webui/settings/md_settings_ui.cc b/chrome/browser/ui/webui/settings/md_settings_ui.cc
-index e2219baeb53fc667679e9173a1d3ecefee412a7b..acc8dda55f64a6807b5364821dbbc11f8b6e7a58 100644
+index 368ba572922402e6e452c5db0349a76d5138c3cf..40e6171741cf834c63ef407c659b82bc8af30e81 100644
 --- a/chrome/browser/ui/webui/settings/md_settings_ui.cc
 +++ b/chrome/browser/ui/webui/settings/md_settings_ui.cc
 @@ -136,6 +136,8 @@ void MdSettingsUI::RegisterProfilePrefs(
