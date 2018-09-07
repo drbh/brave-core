@@ -5,11 +5,13 @@
 #include "brave/browser/brave_local_state_prefs.h"
 
 #include "brave/browser/brave_stats_updater.h"
+#include "brave/browser/tor/tor_profile_service.h"
 
 namespace brave {
 
 void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
   RegisterPrefsForBraveStatsUpdater(registry);
+  tor::TorProfileService::RegisterLocalStatePrefs(registry);
 }
 
 }  // namespace brave
